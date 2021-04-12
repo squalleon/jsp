@@ -1,0 +1,7 @@
+<%
+  String name;
+  int hakbun;
+  name = "ÀÓ²©Á¤";
+  hakbun = 20100001;
+  department = "multimedia_science";
+%>

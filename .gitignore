@@ -1,0 +1,11 @@
+
+*.class
+*.jar
+*.war
+*.ear
+
+.idea/
+.github/
+.gradle/
+
+target/

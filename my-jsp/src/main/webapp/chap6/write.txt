@@ -1,0 +1,136 @@
+<table border='0' width='600' cellspacing='0' cellpadding='2'>
+<tr align='right'>
+<td height='22'>&nbsp;</td></tr>
+<tr align='center'>
+<td height='1' bgcolor='#1F4F8F'></td>
+</tr>
+<tr align='center' bgcolor='#DFEDFF'>
+<td class='button' bgcolor='#DFEDFF'>
+<div align='left'><font size='2'>최신글이 제일 위로
+</div></td>
+</tr>
+<tr align='center' bgcolor='#FFFFFF'>
+<td align='center' bgcolor='#F4F4F4'>
+<table width='100%' border='0' cellpadding='0'cellspacing='4'>
+<tr bgcolor='#F4F4F4'>
+<td width='13%' height='7'></td>
+<td width='38%' height='7'>글쓴이:김철수</td>
+<td width='38%' height='7'>E-mail: <A href=mailto:email@email.co.kr>email@email.co.kr</A></td>
+<td width='11%' height='7'></td>
+</tr>
+<tr bgcolor='#F4F4F4'>
+<td width='13%'></td>
+<td colspan=2>작성일:2013. 12. 17 오전 12:36:51</td>
+<td width='11%'></td>
+</tr></table>
+</td></tr>
+<tr align='center'>
+<td bgcolor='#1F4F8F' height='1'></td>
+</tr>
+<tr align='center'>
+<td style='padding:10 0 0 0'>
+<div align='left'><br>
+<font size='3' color='#333333'><PRE>글 등록 후 목록 페이지에서 최신글이 제일 위로 오게하는
+소스 구현의 테스트입니다.
+</PRE></div>
+<br>
+</td></tr>
+<tr align='center'>
+<td class='button' height='1'></td>
+</tr>
+<tr align='center'>
+<td bgcolor='#1F4F8F' height='1'></td>
+</tr>
+</table>
+<table border='0' width='600' cellspacing='0' cellpadding='2'>
+<tr align='right'>
+<td height='22'>&nbsp;</td></tr>
+<tr align='center'>
+<td height='1' bgcolor='#1F4F8F'></td>
+</tr>
+<tr align='center' bgcolor='#DFEDFF'>
+<td class='button' bgcolor='#DFEDFF'>
+<div align='left'><font size='2'>방명록 테스트
+</div></td>
+</tr>
+<tr align='center' bgcolor='#FFFFFF'>
+<td align='center' bgcolor='#F4F4F4'>
+<table width='100%' border='0' cellpadding='0'cellspacing='4'>
+<tr bgcolor='#F4F4F4'>
+<td width='13%' height='7'></td>
+<td width='38%' height='7'>글쓴이:홍길동</td>
+<td width='38%' height='7'>E-mail: <A href=mailto:email@email.co.kr>email@email.co.kr</A></td>
+<td width='11%' height='7'></td>
+</tr>
+<tr bgcolor='#F4F4F4'>
+<td width='13%'></td>
+<td colspan=2>작성일:2013. 12. 17 오전 12:35:42</td>
+<td width='11%'></td>
+</tr></table>
+</td></tr>
+<tr align='center'>
+<td bgcolor='#1F4F8F' height='1'></td>
+</tr>
+<tr align='center'>
+<td style='padding:10 0 0 0'>
+<div align='left'><br>
+<font size='3' color='#333333'><PRE>안녕하세요!!
+방명록 테스트입니다.
+여기에서는 데이터 베이스 대신하여
+데이터를 파일로 저장하는 방명록을 구현합니다.
+잘 따라해보시길 바랍니다.
+</PRE></div>
+<br>
+</td></tr>
+<tr align='center'>
+<td class='button' height='1'></td>
+</tr>
+<tr align='center'>
+<td bgcolor='#1F4F8F' height='1'></td>
+</tr>
+</table>
+<table border='0' width='600' cellspacing='0' cellpadding='2'>
+<tr align='right'>
+<td height='22'>&nbsp;</td></tr>
+<tr align='center'>
+<td height='1' bgcolor='#1F4F8F'></td>
+</tr>
+<tr align='center' bgcolor='#DFEDFF'>
+<td class='button' bgcolor='#DFEDFF'>
+<div align='left'><font size='2'>글 등록과 동시에 보여주기
+</div></td>
+</tr>
+<tr align='center' bgcolor='#FFFFFF'>
+<td align='center' bgcolor='#F4F4F4'>
+<table width='100%' border='0' cellpadding='0'cellspacing='4'>
+<tr bgcolor='#F4F4F4'>
+<td width='13%' height='7'></td>
+<td width='38%' height='7'>글쓴이:백두산</td>
+<td width='38%' height='7'>E-mail: <A href=mailto:email@email.co.kr>email@email.co.kr</A></td>
+<td width='11%' height='7'></td>
+</tr>
+<tr bgcolor='#F4F4F4'>
+<td width='13%'></td>
+<td colspan=2>작성일:2013. 12. 17 오전 12:36:07</td>
+<td width='11%'></td>
+</tr></table>
+</td></tr>
+<tr align='center'>
+<td bgcolor='#1F4F8F' height='1'></td>
+</tr>
+<tr align='center'>
+<td style='padding:10 0 0 0'>
+<div align='left'><br>
+<font size='3' color='#333333'><PRE>방명록 글 등록과 동시에 목록페이지로 이동하는지
+테스트를 하고 있습니다.
+</PRE></div>
+<br>
+</td></tr>
+<tr align='center'>
+<td class='button' height='1'></td>
+</tr>
+<tr align='center'>
+<td bgcolor='#1F4F8F' height='1'></td>
+</tr>
+</table>
+
