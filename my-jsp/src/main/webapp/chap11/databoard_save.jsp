@@ -45,13 +45,13 @@
   int cnt=0; 
  
   try {
-   Class.forName("org.gjt.mm.mysql.Driver");
+   Class.forName("com.mysql.cj.jdbc.Driver");
   } catch (java.lang.ClassNotFoundException e){
    out.println(e.getMessage());
   }
  
   try {
-   conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/dboard?useUnicode=true&characterEncoding=euckr","root","multi");
+   conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/dboard?useUnicode=true&characterEncoding=euckr","root","password");
  
   st = conn.createStatement();
   sql = "select max(id) from databoard";

@@ -6,13 +6,13 @@
  ResultSet rs =null;
  
  try {
-  Class.forName("org.gjt.mm.mysql.Driver");
+  Class.forName("com.mysql.cj.jdbc.Driver");
  } catch (ClassNotFoundException e ) {
   out.println(e);
  }
 
  try{
-  con = DriverManager.getConnection("jdbc:mysql://localhost:3306/member?useUnicode=true&characterEncoding=euckr","root","multi");
+  con = DriverManager.getConnection("jdbc:mysql://localhost:3306/member?useUnicode=true&characterEncoding=euckr","root","password");
  } catch (SQLException e) {
   out.println(e);
  }

@@ -10,14 +10,14 @@ ResultSet rs=null;
 
 // jdbc-odbc driver 등록
 try {
-    Class.forName("org.gjt.mm.mysql.Driver");
+    Class.forName("com.mysql.cj.jdbc.Driver");
      } catch (ClassNotFoundException e){
      out.println(e.getMessage());
      }
 
 // db와의 연결
 try {
-    con = DriverManager.getConnection("jdbc:mysql://localhost:3306/member?useUnicode=true&true&characterEncoding=euckr","root","multi");
+    con = DriverManager.getConnection("jdbc:mysql://localhost:3306/member?useUnicode=true&true&characterEncoding=euckr","root","password");
     } catch (SQLException e) {
     out.println(e);
     }

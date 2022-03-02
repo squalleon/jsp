@@ -8,14 +8,14 @@ ResultSet rs =null;
 
 // jdbc-odbc driver 를 등록한다.
 try {
-    Class.forName("org.gjt.mm.mysql.Driver");
+    Class.forName("com.mysql.cj.jdbc.Driver");
     } catch (ClassNotFoundException e ) {
       out.println(e);
     }
  
 // DB와 연결한다.
 try{
-   con = DriverManager.getConnection("jdbc:mysql://localhost:3306/member?useUnicode=true&characterEncoding=euckr","root","multi");
+   con = DriverManager.getConnection("jdbc:mysql://localhost:3306/member?useUnicode=true&characterEncoding=euckr","root","password");
   } catch (SQLException e) {
     out.println(e);
   }

@@ -18,13 +18,13 @@
  String address1   = new String();
 
  try {
-  Class.forName("org.gjt.mm.mysql.Driver");
+  Class.forName("com.mysql.cj.jdbc.Driver");
  } catch (ClassNotFoundException e ) {
   out.println(e);
  }
     
  try {
-  conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/member?useUnicode=true&characterEncoding=euckr","root","multi");
+  conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/member?useUnicode=true&characterEncoding=euckr","root","password");
   stmt = conn.createStatement();
  } catch(SQLException e) {
  }

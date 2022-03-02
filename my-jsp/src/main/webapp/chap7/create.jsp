@@ -7,27 +7,27 @@ ResultSet rs =null;
 
 // jdbc-odbc driver를 등록한다.
 try {
-    Class.forName("org.gjt.mm.mysql.Driver");
+    Class.forName("com.mysql.cj.jdbc.Driver");
     } catch (ClassNotFoundException e ) {
       out.println(e);
     }
  
 // DB와 연결한다.
 try{
-   conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/member?useUnicode=true&characterEncoding=euckr","root","multi");
+   conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/member?useUnicode=true&characterEncoding=euckr","root","password");
    } catch (SQLException e) {
    out.println(e);
    }
- 
+/*
 // 쿼리를 실행한다.
 try {
    st = conn.createStatement();
    st.executeUpdate("create table woori(id char(10) primary key, name char(10))");
    }catch (SQLException e) {
     out.println(e);
-  }
+  }*/
 try {
-   rs=st.executeQuery("select * from woori");
+   rs=st.executeQuery("select * from zipcode");
    ResultSetMetaData rsmd = rs.getMetaData();
    out.println("새로운 테이블이 생성되었습니다.<BR>");
    out.println(rsmd.getColumnCount()+"개의 컬럼(필드)을 가지고 있으며<BR>");

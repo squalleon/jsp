@@ -12,13 +12,13 @@
   String sql=null;
 
   try {
-   Class.forName("org.gjt.mm.mysql.Driver");
+   Class.forName("com.mysql.cj.jdbc.Driver");
   } catch (ClassNotFoundException e){
    out.println(e.getMessage());
   }
 
   try {
-   con = DriverManager.getConnection("jdbc:mysql://localhost:3306/member?useUnicode=true&characterEncoding=euckr","root","multi");
+   con = DriverManager.getConnection("jdbc:mysql://localhost:3306/member?useUnicode=true&characterEncoding=euckr","root","password");
    st = con.createStatement();
    sql = "delete from member  where userid= '" + userid + "'";
    st.executeUpdate(sql);

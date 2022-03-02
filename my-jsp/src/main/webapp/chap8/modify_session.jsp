@@ -28,13 +28,13 @@
  String regdate=myformat.format(yymmdd);
 
  try {
-  Class.forName("org.gjt.mm.mysql.Driver");
+  Class.forName("com.mysql.cj.jdbc.Driver");
  } catch (ClassNotFoundException e ) {
   out.println(e);
  }
 
  try {
-  conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/member?useUnicode=true&characterEncoding=euckr","root","multi");
+  conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/member?useUnicode=true&characterEncoding=euckr","root","password");
   stmt = conn.createStatement();
   if(mode.equals("null") || mode.equals("modify")){
    query = "select * from member where userid='"+userid+"'";

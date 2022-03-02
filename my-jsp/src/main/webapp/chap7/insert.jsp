@@ -13,14 +13,14 @@ ResultSet rs =null;
 int cnt=0; 
 // jdbc-odbc driver 등록
 try {
-     Class.forName("org.gjt.mm.mysql.Driver");
+     Class.forName("com.mysql.cj.jdbc.Driver");
     } catch (ClassNotFoundException e){
      out.println(e.getMessage());
     }
 
 // db와의 연결
 try {
-     conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/member?useUnicode=true&characterEncoding=euckr","root","multi");
+     conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/member?useUnicode=true&characterEncoding=euckr","root","password");
      st=conn.createStatement();
      rs = st.executeQuery("select * from woori where id= '"+ id + "'");
    

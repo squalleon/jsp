@@ -110,13 +110,13 @@ function imgchg(p1,p2) {
  ResultSet rs =null;
  
  try {
-  Class.forName("org.gjt.mm.mysql.Driver");
+  Class.forName("com.mysql.cj.jdbc.Driver");
  } catch (ClassNotFoundException e ) {
   out.println(e);
  }
  
  try{
-  conn = java.sql.DriverManager.getConnection("jdbc:mysql://localhost:3306/dboard?useUnicode=true&characterEncoding=euckr","root","multi");
+  conn = java.sql.DriverManager.getConnection("jdbc:mysql://localhost:3306/dboard?useUnicode=true&characterEncoding=euckr","root","password");
  } catch (java.sql.SQLException e) {
   out.println(e);
  }
